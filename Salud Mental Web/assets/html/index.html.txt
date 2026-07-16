@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud Mental y Cuidados</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <nav>
+
+        <h2>🧠 Salud Mental</h2>
+
+        <ul>
+
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#quees">¿Qué es?</a></li>
+            <li><a href="#cuidados">Cuidados</a></li>
+            <li><a href="#habitos">Hábitos</a></li>
+            <li><a href="#ayuda">Ayuda</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero" id="inicio">
+
+    <div class="hero-text">
+
+        <h1>La salud mental también es salud.</h1>
+
+        <p>
+            Cuidar nuestras emociones es tan importante como cuidar nuestro cuerpo.
+        </p>
+
+        <a href="#quees" class="boton">
+            Conocer más
+        </a>
+
+    </div>
+
+</section>
+
+<section id="quees">
+
+    <h2>¿Qué es la Salud Mental?</h2>
+
+    <p>
+
+        La salud mental comprende nuestro bienestar emocional,
+        psicológico y social. Influye en cómo pensamos,
+        sentimos y actuamos durante nuestra vida.
+
+    </p>
+
+</section>
+
+<section id="cuidados" class="gris">
+
+    <h2>¿Cómo cuidar la salud mental?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>😴 Dormir bien</h3>
+
+            <p>
+                Dormir entre 7 y 9 horas ayuda al cerebro a recuperarse.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🥗 Alimentación saludable</h3>
+
+            <p>
+                Comer frutas, verduras y beber suficiente agua mejora el bienestar.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🏃 Actividad física</h3>
+
+            <p>
+                El ejercicio libera endorfinas que mejoran el estado de ánimo.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🧘 Relajación</h3>
+
+            <p>
+                Practicar respiración, meditación o mindfulness reduce el estrés.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="habitos">
+
+    <h2>Hábitos Saludables</h2>
+
+    <ul>
+
+        <li>✔ Hablar sobre tus emociones.</li>
+        <li>✔ Mantener relaciones sanas.</li>
+        <li>✔ Evitar el consumo de sustancias.</li>
+        <li>✔ Organizar el tiempo.</li>
+        <li>✔ Pedir ayuda cuando sea necesario.</li>
+
+    </ul>
+
+</section>
+
+<section id="ayuda" class="gris">
+
+    <h2>¿Cuándo buscar ayuda?</h2>
+
+    <p>
+
+        Si durante varias semanas experimentas tristeza intensa,
+        ansiedad constante, cambios importantes en el sueño,
+        pérdida de interés en tus actividades habituales o dificultades
+        para afrontar la vida diaria, es recomendable hablar con un
+        profesional de la salud mental.
+
+    </p>
+
+</section>
+
+<footer>
+
+    <p>
+
+        © 2026 Salud Mental y Cuidados
+
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+const enlaces = document.querySelectorAll("nav a");
+
+enlaces.forEach((enlace)=>{
+
+    enlace.addEventListener("click",(e)=>{
+
+        e.preventDefault();
+
+        const destino=document.querySelector(enlace.getAttribute("href"));
+
+        destino.scrollIntoView({
+
+            behavior:"smooth"
+
+        });
+
+    });
+
+});
+
+console.log("Página cargada correctamente.");
